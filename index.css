@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input{
+    background-color: black;
+    border: 0.2rem solid orchid;
+    padding: 2%;
+    border-radius: 0.5rem;
+    color: azure;
+    min-width: 90%;
+    margin: 2%;
+}
+
+.btn{
+    background-color: black;
+    border: 0.2rem solid orangered;
+    color: azure;
+    padding: 2% 8%;
+    margin: 3%;
+    border-radius: 15%;
+    flex: 1 1 auto;
+}
+
+.btn:hover{
+    border: none;
+    background-color: orangered;
+}
+
+.op{
+    border: 0.2rem solid yellow;
+}
+
+.op:hover{
+    border: none;
+    background-color: yellow;
+    color: black;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    border: 0.4rem solid blueviolet;
+    border-radius: 10%;
+    min-width: 30vw;
+    max-height: 50vh;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cal-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.operators{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 1;
+    justify-content: space-between;
+}
+.zero{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.clear{
+    border: 0.2rem solid greenyellow;
+}
+
+.clear:hover{
+    border: none;
+    background-color: greenyellow;
+    color: black;
+}
